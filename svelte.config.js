@@ -10,12 +10,7 @@ const config = {
 		})
 	],
 	kit: {
-		adapter: cloudflare(),
-		methodOverride: {
-			parameter: '_method',
-			methods: ['post', 'get']
-
-		}
+		adapter: cloudflare()
 	}
 }
 
