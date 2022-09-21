@@ -1,0 +1,1 @@
+const p=!1;async function n({url:e,params:s,fetch:c,parent:r,context:l}){const t=e.searchParams.get("ref"),{store:a,me:o}=await r();return{me:o,store:a,ref:t}}const f=Object.freeze(Object.defineProperty({__proto__:null,prerender:!1,load:n},Symbol.toStringTag,{value:"Module"}));export{f as _,n as l,p};

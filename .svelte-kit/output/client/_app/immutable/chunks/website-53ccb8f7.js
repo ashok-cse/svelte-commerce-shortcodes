@@ -1,0 +1,1 @@
+const e="62b00e15c4899dc7b1f78cb1",s="hi@misiki.in",i="#22, Global Village, Rourkela, Odisha - 769002, India",a="+91-8249028220",t="Misiki Technologies",o="KitCommerce",c="KitCommerce",n="KitCommerce",m="KitCommerce",l="en_US",g="en-US";export{i as a,t as b,n as c,o as d,s as e,m as f,e as i,l as o,a as p,g as s,c as w};

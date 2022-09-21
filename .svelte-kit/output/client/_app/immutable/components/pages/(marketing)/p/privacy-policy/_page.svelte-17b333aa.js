@@ -1,0 +1,27 @@
+import{S as nt,i as rt,s as st,_ as lt,v as ct,a as c,k as n,q as u,w as ut,c as d,l as r,m as s,r as f,h as i,n as $,x as dt,b as it,C as t,ac as ft,ad as pt,f as yt,t as ht,y as mt}from"../../../../../chunks/index-98fbb2d4.js";import{S as wt}from"../../../../../chunks/index-deeab894.js";function vt(q){let l,P,h,p,m,L,Y,o,v,S,O,b,C,T,_,z,J,g,M,j,x,D,H,E,N,U,I,V,A,k,B,W;const F=[q[0]];let G={};for(let e=0;e<F.length;e+=1)G=lt(G,F[e]);return l=new wt({props:G}),{c(){ct(l.$$.fragment),P=c(),h=n("section"),p=n("div"),m=n("h1"),L=u("Privacy Policy"),Y=c(),o=n("ul"),v=n("li"),S=u(`Your privacy is important to us. It is Misiki\u2019s policy to respect your privacy regarding any
+				information we may collect from you across our website, https://misiki.in, and other sites
+				we own and operate.`),O=c(),b=n("li"),C=u(`We only ask for personal information when we truly need it to provide a service to you. We
+				collect it by fair and lawful means, with your knowledge and consent. We also let you know
+				why we\u2019re collecting it and how it will be used.`),T=c(),_=n("li"),z=u(`We only retain collected information for as long as necessary to provide you with your
+				requested service. What data we store, we\u2019ll protect within commercially acceptable means to
+				prevent loss and theft, as well as unauthorized access, disclosure, copying, use or
+				modification.`),J=c(),g=n("li"),M=u(`We don\u2019t share any personally identifying information publicly or with third-parties, except
+				when required to by law.`),j=c(),x=n("li"),D=u(`Our website may link to external sites that are not operated by us. Please be aware that we
+				have no control over the content and practices of these sites, and cannot accept
+				responsibility or liability for their respective privacy policies.`),H=c(),E=n("li"),N=u(`You are free to refuse our request for your personal information, with the understanding
+				that we may be unable to provide you with some of your desired services.`),U=c(),I=n("li"),V=u(`Your continued use of our website will be regarded as acceptance of our practices around
+				privacy and personal information. If you have any questions about how we handle user data
+				and personal information, feel free to contact us.`),A=c(),k=n("li"),B=u("This policy is effective as of 1 January 2020."),this.h()},l(e){ut(l.$$.fragment,e),P=d(e),h=r(e,"SECTION",{class:!0});var y=s(h);p=r(y,"DIV",{class:!0});var w=s(p);m=r(w,"H1",{class:!0});var K=s(m);L=f(K,"Privacy Policy"),K.forEach(i),Y=d(w),o=r(w,"UL",{class:!0});var a=s(o);v=r(a,"LI",{});var Q=s(v);S=f(Q,`Your privacy is important to us. It is Misiki\u2019s policy to respect your privacy regarding any
+				information we may collect from you across our website, https://misiki.in, and other sites
+				we own and operate.`),Q.forEach(i),O=d(a),b=r(a,"LI",{});var R=s(b);C=f(R,`We only ask for personal information when we truly need it to provide a service to you. We
+				collect it by fair and lawful means, with your knowledge and consent. We also let you know
+				why we\u2019re collecting it and how it will be used.`),R.forEach(i),T=d(a),_=r(a,"LI",{});var X=s(_);z=f(X,`We only retain collected information for as long as necessary to provide you with your
+				requested service. What data we store, we\u2019ll protect within commercially acceptable means to
+				prevent loss and theft, as well as unauthorized access, disclosure, copying, use or
+				modification.`),X.forEach(i),J=d(a),g=r(a,"LI",{});var Z=s(g);M=f(Z,`We don\u2019t share any personally identifying information publicly or with third-parties, except
+				when required to by law.`),Z.forEach(i),j=d(a),x=r(a,"LI",{});var tt=s(x);D=f(tt,`Our website may link to external sites that are not operated by us. Please be aware that we
+				have no control over the content and practices of these sites, and cannot accept
+				responsibility or liability for their respective privacy policies.`),tt.forEach(i),H=d(a),E=r(a,"LI",{});var et=s(E);N=f(et,`You are free to refuse our request for your personal information, with the understanding
+				that we may be unable to provide you with some of your desired services.`),et.forEach(i),U=d(a),I=r(a,"LI",{});var ot=s(I);V=f(ot,`Your continued use of our website will be regarded as acceptance of our practices around
+				privacy and personal information. If you have any questions about how we handle user data
+				and personal information, feel free to contact us.`),ot.forEach(i),A=d(a),k=r(a,"LI",{});var at=s(k);B=f(at,"This policy is effective as of 1 January 2020."),at.forEach(i),a.forEach(i),w.forEach(i),y.forEach(i),this.h()},h(){$(m,"class","mb-5 text-center font-serif text-2xl font-medium sm:mb-10 md:text-3xl lg:text-4xl"),$(o,"class","flex flex-col gap-5 text-sm text-gray-500 sm:text-base"),$(p,"class","container mx-auto w-full max-w-6xl"),$(h,"class","min-h-screen p-3 sm:p-10")},m(e,y){dt(l,e,y),it(e,P,y),it(e,h,y),t(h,p),t(p,m),t(m,L),t(p,Y),t(p,o),t(o,v),t(v,S),t(o,O),t(o,b),t(b,C),t(o,T),t(o,_),t(_,z),t(o,J),t(o,g),t(g,M),t(o,j),t(o,x),t(x,D),t(o,H),t(o,E),t(E,N),t(o,U),t(o,I),t(I,V),t(o,A),t(o,k),t(k,B),W=!0},p(e,[y]){const w=y&1?ft(F,[pt(e[0])]):{};l.$set(w)},i(e){W||(yt(l.$$.fragment,e),W=!0)},o(e){ht(l.$$.fragment,e),W=!1},d(e){mt(l,e),e&&i(P),e&&i(h)}}}function bt(q){return[{title:"Privacy Policy",description:"Privacy Policy"}]}class xt extends nt{constructor(l){super(),rt(this,l,bt,vt,st,{})}}export{xt as default};

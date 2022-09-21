@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- <link rel="preload" href="some-fancy-font.ttf" as="font" type="font/woff2" crossorigin> -->
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet" /> -->
+		<link rel="manifest" crossorigin="use-credentials" href="/manifest.json" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#FAE053" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="modulepreload" href="/_app/immutable/start-94e3df22.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-98fbb2d4.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/singletons-edd21494.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-7c2e2153.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/control-a6874251.js">
+			<script>
+		if ('serviceWorker' in navigator) {
+			addEventListener('load', function () {
+				navigator.serviceWorker.register('/service-worker.js');
+			});
+		}
+	</script>
+	</head>
+
+	<body class="text-gray-800">
+		<div>
+		<script type="module" data-sveltekit-hydrate="45h">
+		import { start } from "/_app/immutable/start-94e3df22.js";
+
+		start({
+			env: {},
+			hydrate: null,
+			paths: {"base":"","assets":""},
+			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
+			trailing_slash: "never"
+		});
+	</script></div>
+	</body>
+</html>

@@ -84,6 +84,7 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
+	export const NODE_ENV: string;
 	export const HTTP_ENDPOINT: string;
 	export const VITE_DOMAIN: string;
 	export const VITE_WWW_URL: string;
@@ -175,6 +176,7 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
+		NODE_ENV: string;
 		HTTP_ENDPOINT: string;
 		VITE_DOMAIN: string;
 		VITE_WWW_URL: string;

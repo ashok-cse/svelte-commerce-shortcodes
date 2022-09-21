@@ -1,17 +1,17 @@
-import cloudflare from '@sveltejs/adapter-cloudflare';
+import adapter from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	kit: {
+		adapter: adapter()
+	},
 	preprocess: [
 		preprocess({
 			postcss: true,
 			preserve: ['ld+json']
 		})
-	],
-	kit: {
-		adapter: cloudflare()
-	}
+	]
 }
 
 export default config
