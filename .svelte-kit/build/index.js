@@ -43,9 +43,9 @@ export class Server {
 					get request() {
 						throw new Error('request in handleError has been replaced with event. See https://github.com/sveltejs/kit/pull/3384 for details');
 					}
-				}) ?? { message: event.routeId ? 'Svelte Dont Mind it' : 'Not Found' };
+				}) ?? { message: event.routeId ? 'Internal Error' : 'Not Found' };
 			},
-			hooks: base +'/hooks.server.js',
+			hooks: null,
 			manifest,
 			paths: { base, assets },
 			public_env: {},
