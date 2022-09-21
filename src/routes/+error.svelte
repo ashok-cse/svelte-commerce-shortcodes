@@ -80,7 +80,7 @@ import { page } from '$app/stores'
 				<div class="flex flex-col gap-5 text-center">
 					<h1>{$page.error?.status || 500}</h1>
 
-					<h2 class="headline my-3">{$page.error?.message}</h2>
+					<h2 class="headline my-3">{$page.error?.message} Hello</h2>
 				</div>
 			</div>
 		</div>
