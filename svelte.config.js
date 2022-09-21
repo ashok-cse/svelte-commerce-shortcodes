@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto'
+import cloudflare from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess'
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -10,7 +10,12 @@ const config = {
 		})
 	],
 	kit: {
-		adapter: adapter()
+		adapter: cloudflare(),
+		methodOverride: {
+			parameter: '_method',
+			methods: ['post', 'get']
+
+		}
 	}
 }
 
