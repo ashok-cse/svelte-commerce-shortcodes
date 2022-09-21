@@ -1,8 +1,11 @@
-/// <reference types="@sveltejs/kit" />
+/// <reference types="@sveltejs/adapter-cloudflare" />
 
-// See https://kit.svelte.dev/docs/types#the-app-namespace
-// for information about these interfaces
 declare namespace App {
-	// interface Platform {}
-	// interface Stuff {}
+	interface platform {
+		env?: {
+						YOUR_KV_NAMESPACE: string;
+						YOUR_DURABLE_OBJECT_NAMESPACE: string;
+					};
 }
+}
+
