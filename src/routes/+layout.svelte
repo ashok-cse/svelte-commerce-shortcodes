@@ -7,7 +7,9 @@ import BackToTop from '$lib/components/BackToTop.svelte'
 import PageTransitions from '$lib/PageTransitions.svelte'
 import GoogleAnalytics from '$lib/components/GoogleAnalytics.svelte'
 import { navigating } from '$app/stores'
+
 </script>
+
 
 {#if $navigating}
 	<PreloadingIndicator />
