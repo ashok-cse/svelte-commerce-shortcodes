@@ -18,9 +18,10 @@ import MegaMenu from './components/MegaMenu.svelte'
 const dispatch = createEventDispatcher()
 const cookies = Cookie()
 
-export let me,
-	cart = {},
-	data
+export const data = {}
+
+export var me,
+	cart = {}
 
 let selectTarget = null
 let openSidebar = false
