@@ -10,5 +10,5 @@ export async function load({ params, query, parent, setHeaders }) {
 	if (home) {
 		return { home: home }
 	}
-	throw error(500, 'Internal Server Error')
+	throw error(500, 'Fail Ho gya')
 }
