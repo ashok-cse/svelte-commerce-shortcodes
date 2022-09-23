@@ -97,6 +97,8 @@ function enterPressedOnSearch() {
 	// console.log('enterPressedOnSearch.................')
 }
 
+
+
 async function onSearchSubmit({ detail }) {
 	// console.log('onSearchSubmit..............')
 
