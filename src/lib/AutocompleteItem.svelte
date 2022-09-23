@@ -45,7 +45,7 @@ export let filterText = ''
 
 let itemClasses = ''
 
-$: {
+ {
 	const classes = []
 
 	if (isActive) {
