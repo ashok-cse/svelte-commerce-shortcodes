@@ -1,1 +1,1 @@
-export { default as component } from "../../../src/routes/(app)/bulk-order-inquiry/+page.svelte";
+export { default as component } from "../../../src/routes/(marketing)/p/printing-terms-cancellation-policy/+page.svelte";

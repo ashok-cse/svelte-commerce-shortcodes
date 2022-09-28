@@ -1,3 +1,3 @@
-import * as shared from "../../../src/routes/(app)/auth/otp-login/+page.ts";
+import * as shared from "../../../src/routes/(marketing)/faqs/+page.ts";
 export { shared };
-export { default as component } from "../../../src/routes/(app)/auth/otp-login/+page.svelte";
+export { default as component } from "../../../src/routes/(marketing)/faqs/+page.svelte";

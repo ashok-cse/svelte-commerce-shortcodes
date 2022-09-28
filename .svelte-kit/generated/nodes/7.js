@@ -1,2 +1,1 @@
-export { default as component } from "../../../src/routes/(app)/+page.svelte";
-export const server = true;
+export { default as component } from "../../../src/routes/(marketing)/about-us/+page.svelte";

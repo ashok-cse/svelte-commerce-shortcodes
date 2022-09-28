@@ -1,3 +1,1 @@
-import * as shared from "../../../src/routes/(app)/categories/+page.ts";
-export { shared };
-export { default as component } from "../../../src/routes/(app)/categories/+page.svelte";
+export { default as component } from "../../../src/routes/(marketing)/p/terms-conditions/+page.svelte";

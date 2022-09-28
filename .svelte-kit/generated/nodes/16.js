@@ -1,2 +1,3 @@
-export { default as component } from "../../../src/routes/(app)/checkout/address/+page.svelte";
-export const server = true;
+import * as shared from "../../../src/routes/app/auth/otp-login/+page.ts";
+export { shared };
+export { default as component } from "../../../src/routes/app/auth/otp-login/+page.svelte";

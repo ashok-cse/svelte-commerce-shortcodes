@@ -1,1 +1,2 @@
-export { default as component } from "../../../src/routes/(marketing)/p/privacy-policy/+page.svelte";
+export { default as component } from "../../../src/routes/app/search/+page.svelte";
+export const server = true;

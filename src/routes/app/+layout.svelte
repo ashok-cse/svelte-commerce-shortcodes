@@ -2,6 +2,7 @@
 import Nav from '$lib/Nav.svelte'
 import Footer from '$lib/Footer.svelte'
 import PageTransitions from '$lib/PageTransitions.svelte'
+
 export let data
 </script>
 

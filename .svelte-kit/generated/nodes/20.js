@@ -1,2 +1,3 @@
-export { default as component } from "../../../src/routes/(app)/my/addresses/[id]/+page.svelte";
-export const server = true;
+import * as shared from "../../../src/routes/app/categories/+page.ts";
+export { shared };
+export { default as component } from "../../../src/routes/app/categories/+page.svelte";
