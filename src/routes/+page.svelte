@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 import './../app.css'
 import './../fonts.css'
 import { ToastContainer, FlatToast } from 'svelte-toasts'
@@ -11,9 +11,6 @@ import { navigating } from '$app/stores'
 </script>
 
 
-{#if $navigating}
-	<PreloadingIndicator />
-{/if}
 
 <section class="minimum-width relative flex min-h-screen flex-col bg-white antialiased">
 	<div class="h-rem w-full flex-1">
@@ -21,10 +18,3 @@ import { navigating } from '$app/stores'
 	</div>
 </section>
 
-<GoogleAnalytics />
-
-<BackToTop />
-
-<ToastContainer let:data>
-	<FlatToast data="{data}" />
-</ToastContainer>

@@ -3,13 +3,15 @@ export { matchers } from './client-matchers.js';
 			export const nodes = [() => import('./nodes/0'),
 	() => import('./nodes/1'),
 	() => import('./nodes/2'),
-	() => import('./nodes/3')];
+	() => import('./nodes/3'),
+	() => import('./nodes/4')];
 
-			export const server_loads = [0];
+			export const server_loads = [];
 
 			export const dictionary = {
-	"shortcodes": [2],
-	"tests": [3]
+	"": [~2],
+	"shortcodes": [3],
+	"tests": [4]
 };
 
 			export const hooks = {

@@ -1,3 +1,3 @@
-import * as shared from "../../../src/routes/tests/+page.ts";
+import * as shared from "../../../src/routes/shortcodes/+page.ts";
 export { shared };
-export { default as component } from "../../../src/routes/tests/+page.svelte";
+export { default as component } from "../../../src/routes/shortcodes/+page.svelte";
