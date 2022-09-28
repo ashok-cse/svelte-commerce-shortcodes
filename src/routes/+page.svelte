@@ -1,6 +1,6 @@
 <svelte:head>
-	<title>{data.title}</title>
-	<meta name="description" content="{data.description}" />
+	<title>Hello</title>
+	<meta name="description" content="Hello" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="icon" type="image/png" href="/favicon.png" />
 	<link rel="stylesheet" href="/global.css" />
