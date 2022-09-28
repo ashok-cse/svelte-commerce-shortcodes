@@ -1,20 +1,13 @@
-<script>
-import './../app.css'
-import './../fonts.css'
-import { ToastContainer, FlatToast } from 'svelte-toasts'
-import PreloadingIndicator from '$lib/PreloadingIndicator.svelte'
-import BackToTop from '$lib/components/BackToTop.svelte'
-import PageTransitions from '$lib/PageTransitions.svelte'
-import GoogleAnalytics from '$lib/components/GoogleAnalytics.svelte'
-import { navigating } from '$app/stores'
-
-</script>
-
+<svelte:head>
+	<title>{data.title}</title>
+	<meta name="description" content="{data.description}" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/png" href="/favicon.png" />
+	<link rel="stylesheet" href="/global.css" />
+	<link rel="stylesheet" href="/theme.css" />
+	<link rel="stylesheet" href="/app.css" />
+	<link rel="stylesheet" href="/page.css" />
+</svelte:head>
 
 
-<section class="minimum-width relative flex min-h-screen flex-col bg-white antialiased">
-	<div class="h-rem w-full flex-1">
-		<slot />
-	</div>
-</section>
-
+<h1>Hello</h1>

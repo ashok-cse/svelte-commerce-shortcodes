@@ -9,7 +9,7 @@ export { matchers } from './client-matchers.js';
 			export const server_loads = [];
 
 			export const dictionary = {
-	"": [~2],
+	"": [2],
 	"shortcodes": [3],
 	"tests": [4]
 };
